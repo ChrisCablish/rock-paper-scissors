@@ -25,7 +25,7 @@ if (userChoice=='rock'&&computerChoice=='scissors'||userChoice=='paper'&&compute
     console.log('User chose ' + userChoice + '. Computer chose ' + computerChoice + `. Computer wins this round! The score is User: ${playerScore} Computer: ${computerScore}.`)
 
 } else if (computerChoice==userChoice) {
-        console.log("It's a tie! Try that round again.");
+        console.log("It's a tie!");
          
 
     
